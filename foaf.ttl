@@ -6,7 +6,8 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl>.
-
+@prefix taxon: <http://lod.taxonconcept.org/ontology/txn.owl#> 
+@prefix appearances: <http://rdf.muninn-project.org/ontologies/appearances#>.
 <> a foaf:Document ;
    dc:date "2019-10-09"^^xsd:date ;
    dc:title "Hannah's FOAF Profile"@en ;
@@ -29,4 +30,6 @@
    social:hasEnemy <http://www.wikidata.org/wiki/Q83287> ;
    social:hasEnemy <http://www.wikidata.org/wiki/Q12713382> ;
    social:hasEnemy <http://www.wikidata.org/wiki/Q233412> ;
-   social:hasSpiritAnimal <http://bucket1.glanacion.com/anexos/fotos/12/2656812w380.jpg> .
+   social:hasSpiritAnimal <http://bucket1.glanacion.com/anexos/fotos/12/2656812w380.jpg>;
+   appearances:hasHeightMeasurementInches "65"^^xsd:int;
+   appearances:hasHeightMeasurementMeters "1.65"^^xsd:double.
