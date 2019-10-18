@@ -6,7 +6,6 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl>.
-@prefix taxon: <http://lod.taxonconcept.org/ontology/txn.owl#> 
 @prefix appearances: <http://rdf.muninn-project.org/ontologies/appearances#>.
 <> a foaf:Document ;
    dc:date "2019-10-09"^^xsd:date ;
