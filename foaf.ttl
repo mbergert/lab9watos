@@ -30,5 +30,5 @@
    social:hasEnemy <http://www.wikidata.org/wiki/Q12713382> ;
    social:hasEnemy <http://www.wikidata.org/wiki/Q233412> ;
    social:hasSpiritAnimal <http://bucket1.glanacion.com/anexos/fotos/12/2656812w380.jpg>;
-   appearances:hasHeightMeasurementInches "65"^^xsd:int;
+   appearances:hasHeightMeasurementInches "65"^^xsd:double;
    appearances:hasHeightMeasurementMeters "1.65"^^xsd:double.
